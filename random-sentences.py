@@ -1,5 +1,8 @@
+#Imports 
 import random
 
+
+#Subjs, Verbs and Objs
 subj = ["He", "She", "They"]
 
 verbS = ["Plays", "Likes", "Hits", "Drives", "Punches", "Records"]
@@ -14,6 +17,7 @@ noOfSent = int(input("How much sentences do you want ? :"))
 
 Sentence = ""
 
+#Defining Functions
 def spacing(str1,str2,str3):
     return str1+" " + str2 + " " + str3
 
@@ -28,6 +32,7 @@ def generate_sentence():
 
     return Sentence
 
+#Printing em out
 print("\n")
 for i in range(noOfSent):
     print(generate_sentence())
